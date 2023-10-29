@@ -1,0 +1,9 @@
+{
+  "name": "ChatGPT-Unlimited",
+  "version": "1.0.0",
+  "author": "ronaldzav",
+  "main": "src/index.js",
+  "dependencies": {
+    "node-fetch": "2.6.9"
+  }
+}
