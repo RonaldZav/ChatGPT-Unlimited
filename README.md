@@ -19,5 +19,5 @@ console.log(response);
 chat();
 ```
 
-#Disclaimer
+# Disclaimer
 This package use "api.gglvxd.eu.org" to work.
