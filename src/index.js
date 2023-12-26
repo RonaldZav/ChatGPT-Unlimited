@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 
 module.exports = class Chat {
   static async create(prompt) {
-    const apiUrl = `https://api.gglvxd.eu.org/v1/chatgpt?q=${encodeURIComponent(prompt)}`;
+    const apiUrl = `https://api.gglvxd.eu.org/v3/chatgpt?q=${encodeURIComponent(prompt)}`;
     const timeoutMillis = 30000;
     const timeOutMessage = "Tiempo de espera excedido.";
     
